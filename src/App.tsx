@@ -2,9 +2,9 @@ import { ThemeProvider } from "@/components/ThemeProvoder"
 import { SidebarInset, SidebarProvider } from "./components/ui/sidebar"
 import { AppSideBar } from "@/components/AppSidebar"
 import { TooltipProvider } from "@/components/ui/tooltip"
-import { Header } from "./components/header"
 import { Page, PageHeader } from "./components/Page"
 import { DashboardCard } from "./components/DashboardCard"
+import { Header } from "@/components/Header"
 export const App = () => {
   return <ThemeProvider>
     <TooltipProvider>

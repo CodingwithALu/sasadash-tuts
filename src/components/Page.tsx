@@ -1,8 +1,7 @@
 import type React from "react";
-import { ThemeToggle } from "./themetoggle";
 import { Button } from "./ui/button";
 import { DownloadIcon, SearchIcon, Settings2Icon } from "lucide-react";
-
+import { ThemeToggle } from "./ThemeToggle";
 export const Page = ({ children }: React.PropsWithChildren) => {
     return <div className="px-4 py-8 md:p-8">
         {children}
