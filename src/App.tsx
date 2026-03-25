@@ -4,6 +4,7 @@ import { AppSideBar } from "@/components/AppSidebar"
 import { TooltipProvider } from "@/components/ui/tooltip"
 import { Header } from "./components/header"
 import { Page, PageHeader } from "./components/Page"
+import { DashboardCard } from "./components/DashboardCard"
 export const App = () => {
   return <ThemeProvider>
     <TooltipProvider>
@@ -14,8 +15,10 @@ export const App = () => {
           <main>
             <Page>
               <PageHeader>
-
               </PageHeader>
+              <div className="">
+                <DashboardCard></DashboardCard>
+              </div>
             </Page>
           </main>
         </SidebarInset>
