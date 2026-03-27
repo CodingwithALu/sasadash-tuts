@@ -1,10 +1,15 @@
 import { AnimatePresence } from "motion/react";
 import { Route, Routes, useLocation } from "react-router-dom";
 import PageTransition from "./PageTransiton";
+import HomePage from "@/feature/screen/home/homePage";
+import CulturePage from "@/feature/screen/culture/culturePage";
+import EventPage from "@/feature/screen/event/eventPage";
+import SponsorsPage from "@/feature/screen/sponsors/sponsorsPage";
+import FinancePage from "@/feature/screen/finance/finacePage";
 
 const AnimatedRoutes = () => {
   const location = useLocation();
-  
+
   return (
     <AnimatePresence mode="wait">
       <Routes location={location}>

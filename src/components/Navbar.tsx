@@ -23,13 +23,13 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-20 items-center">
           <Link to="/" className="flex items-center gap-2 group">
-             <motion.div 
+            <motion.div
               whileHover={{ scale: 1.1, rotate: 5 }}
-              className="w-10 h-10 rounded-xl overflow-hidden shadow-lg shadow-orange-200"
+              className="w-10 h-10 rounded-xl overflow-hidden shadow-lg shadow-blue-300"
             >
-              <img 
-                src="https://res.cloudinary.com/dhl2sbjo5/image/upload/v1774521134/logo-app_ielf9y.jpg" 
-                alt="Logo" 
+              <img
+                src="https://res.cloudinary.com/dhl2sbjo5/image/upload/v1774521134/logo-app_ielf9y.jpg"
+                alt="Logo"
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
               />
@@ -38,12 +38,12 @@ const Navbar = () => {
               Tết Mông Xuống Phố
             </span>
           </Link>
-          
+
           <div className="hidden md:flex items-center space-x-1">
             {navItems.map((item, idx) => (
-              <Button 
-                key={idx} 
-                variant="ghost" 
+              <Button
+                key={idx}
+                variant="ghost"
                 className={`text-stone-600 hover:text-orange-600 hover:bg-orange-50 rounded-full px-4 ${location.pathname === item.href ? 'text-orange-600 bg-orange-50' : ''}`}
               >
                 {item.href.startsWith('/') && !item.href.includes('#') ? (
@@ -53,10 +53,12 @@ const Navbar = () => {
                 )}
               </Button>
             ))}
-            <div className="w-px h-6 bg-stone-200 mx-4" />
-            <Button className="bg-orange-600 hover:bg-orange-700 text-white rounded-full px-6 shadow-lg shadow-orange-200 transition-all hover:scale-105 active:scale-95">
-              <a href="/#finance">
-                <Heart className="mr-2 h-4 w-4 fill-current" /> Quyên góp
+            <div className="flex items-center" />
+            <Button
+              asChild
+              className=" bg-orange-600 hover:bg-orange-700 text-white rounded-full px-3 shadow-lg shadow-orange-200 transition-all hover:scale-105 active:scale-95">
+              <a href="/#finance" className="flex tiems-center">
+                <Heart className="mr-1 h-4 w-4 fill-current" /> Quyên góp
               </a>
             </Button>
           </div>
@@ -77,9 +79,9 @@ const Navbar = () => {
                 </SheetHeader>
                 <div className="flex flex-col space-y-2">
                   {navItems.map((item, idx) => (
-                    <Button 
-                      key={idx} 
-                      variant="ghost" 
+                    <Button
+                      key={idx}
+                      variant="ghost"
                       className={`justify-start h-14 text-lg font-medium rounded-xl ${location.pathname === item.href ? 'text-orange-600 bg-orange-50' : 'text-stone-600'}`}
                       onClick={() => setIsOpen(false)}
                     >
