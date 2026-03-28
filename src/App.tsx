@@ -3,7 +3,7 @@ import { SidebarInset, SidebarProvider } from "./components/ui/sidebar"
 import { TooltipProvider } from "@/components/ui/tooltip"
 import Navbar from "./components/Navbar"
 import { BrowserRouter as Router } from "react-router-dom"
-import AnimatedRoutes from "./components/AnimatedRoutes"
+import AnimatedRoutes from "./route/AnimatedRoutes"
 import { Toaster } from "./components/ui/sonner"
 export const App = () => {
   return (
