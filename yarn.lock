@@ -1993,6 +1993,13 @@ content-type@^1.0.5:
   resolved "https://registry.npmjs.org/content-type/-/content-type-1.0.5.tgz"
   integrity sha512-nTjqfcBFEipKdXCv4YDQWCfmcLZKm81ldF0pAopTvyrFGVbcR6P/VAAd5G7N+0tTr8QqiU0tFadD6FK4NtJwOA==
 
+context@^4.0.15:
+  version "4.0.15"
+  resolved "https://registry.yarnpkg.com/context/-/context-4.0.15.tgz#374c033467d9bad71032ca34bc3ff88f200ff24d"
+  integrity sha512-Rketwf6ycGUdEs248S/jNvlWNEWkGzKIzPIjUYMRzkIhEfUOfxRyI1UnsYWytjmE4/oL5geDZRovhnAGyI9HYg==
+  dependencies:
+    vest-utils "^2.0.15"
+
 convert-source-map@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npmjs.org/convert-source-map/-/convert-source-map-2.0.0.tgz"
@@ -3317,6 +3324,13 @@ minimist@^1.2.6:
   resolved "https://registry.npmjs.org/minimist/-/minimist-1.2.8.tgz"
   integrity sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA==
 
+mobx-state-tree@^7.1.0:
+  version "7.1.0"
+  resolved "https://registry.yarnpkg.com/mobx-state-tree/-/mobx-state-tree-7.1.0.tgz#d89fcbd3b56c8d9b0d26eee91ec4ef8450ffb0d6"
+  integrity sha512-g19UxBZtJE6R5Vl34TsdXbes4fYiga3Sqfk7FCEcRljCAMML3hkceZrKW49T/Kgm2eHoefgVYhZk5sIROGeWVg==
+  dependencies:
+    ts-essentials "^9.4.1"
+
 motion-dom@^12.38.0:
   version "12.38.0"
   resolved "https://registry.yarnpkg.com/motion-dom/-/motion-dom-12.38.0.tgz#9ef3253ea0fb28b6757588327073848d940e9aab"
@@ -4285,6 +4299,11 @@ ts-api-utils@^2.4.0:
   resolved "https://registry.npmjs.org/ts-api-utils/-/ts-api-utils-2.5.0.tgz"
   integrity sha512-OJ/ibxhPlqrMM0UiNHJ/0CKQkoKF243/AEmplt3qpRgkW8VG7IfOS41h7V8TjITqdByHzrjcS/2si+y4lIh8NA==
 
+ts-essentials@^9.4.1:
+  version "9.4.2"
+  resolved "https://registry.yarnpkg.com/ts-essentials/-/ts-essentials-9.4.2.tgz#6d4bd23b46b61bf3e031816cc887e839eb62c33c"
+  integrity sha512-mB/cDhOvD7pg3YCLk2rOtejHjjdSi9in/IBYE13S+8WA5FBSraYf4V/ws55uvs0IvQ/l0wBOlXy5yBNZ9Bl8ZQ==
+
 ts-morph@^26.0.0:
   version "26.0.0"
   resolved "https://registry.npmjs.org/ts-morph/-/ts-morph-26.0.0.tgz"
@@ -4424,6 +4443,11 @@ vary@^1, vary@^1.1.2:
   version "1.1.2"
   resolved "https://registry.npmjs.org/vary/-/vary-1.1.2.tgz"
   integrity sha512-BNGbWLfd0eUPabhkXUVm0j8uuvREyTh5ovRa/dyow/BqAbZJyC+5fU+IzQOzmAKzYqYRAISoRhdQr3eIZ/PXqg==
+
+vest-utils@^2.0.15:
+  version "2.0.15"
+  resolved "https://registry.yarnpkg.com/vest-utils/-/vest-utils-2.0.15.tgz#981f4a6c27bf3fe419a6e5eb785810df50e223c1"
+  integrity sha512-fTcBnUfKmMRDqDRMlGeI9iwzGyn/CNgQLK4SjOZQN121arwxaKbJ8swZv9axsX+gUiANpsD1aALb20Yv7sQwsQ==
 
 victory-vendor@^37.0.2:
   version "37.3.6"
@@ -4575,3 +4599,8 @@ zod@^3.24.1:
   version "4.3.6"
   resolved "https://registry.npmjs.org/zod/-/zod-4.3.6.tgz"
   integrity sha512-rftlrkhHZOcjDwkGlnUtZZkvaPHCsDATp4pGpuOOMDaTdDDXF91wuVDJoWoPsKX/3YPQ5fHuF3STjcYyKr+Qhg==
+
+zustand@^5.0.12:
+  version "5.0.12"
+  resolved "https://registry.yarnpkg.com/zustand/-/zustand-5.0.12.tgz#ed36f647aa89965c4019b671dfc23ef6c6e3af8c"
+  integrity sha512-i77ae3aZq4dhMlRhJVCYgMLKuSiZAaUPAct2AksxQ+gOtimhGMdXljRT21P5BNpeT4kXlLIckvkPM029OljD7g==

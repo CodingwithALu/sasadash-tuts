@@ -8,14 +8,12 @@
 import { ApisauceInstance, create } from "apisauce"
 import { AxiosRequestConfig } from "axios"
 import { constant } from "constans"
-import NavigationServices from "navigation/NavigationServices"
-import { Platform } from "react-native"
 import { getModel, getUniqueIdSync } from "react-native-device-info"
-import { MMKVStorage } from "services/StorageService"
 import useUserStore from "stores/user.store"
 import Config from "../../config"
 import type { ApiConfig } from "./api.types"
 import { CMD_KEY } from "./apiConstants"
+import { MMKVStorage } from "../StorageService"
 
 type TOptions = {
   cmd?: keyof typeof CMD_KEY
